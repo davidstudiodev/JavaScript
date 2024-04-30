@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#form1, #form2, #form3  {
+    display: none;
+    border: 1px solid black;
+    margin-top: 50px;
+    padding: 20px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background: black;
+}
+

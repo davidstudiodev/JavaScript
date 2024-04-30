@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "rukou", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+
+#products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#products h1 {
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: white;
+}
+
+#discount {
+    display: none;
+}
+
+#discount_change {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book {
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: white;
+
+    
+}
+.book img {
+    height: 200px;
+}
+
+.book p {
+    font-family: 'Times New Roman', Times, serif;
+    width: 150px;
+    text-align: center;
+}

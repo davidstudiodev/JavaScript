@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <!--Fin google fonts-->
+
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Fin font awesome-->
+
+
+</head>
+<body>
+    <section id="principal">
+        <h1>Shop</h1>
+        <img id="img-prod" src="https://izicop.com/cdn/shop/products/snakerstoreAir_Jordan_1_Mid_Ice_Blue-555112-401-0.png?v=1666775288" alt="">
+        <h3 id="nombre_tenis">Jordan 3 Air Nike</h3>
+        <div id="precio">
+            <span>€</span>
+            <h4 id="valor_precio">600</h4>
+        </div>
+        
+        <p>
+           Explore las principales marcas de tenis, ropa y accesorios en Kolab.
+           Encontre la ultima moda deportiva y streetwear en un solo lugar.
+        </p>
+
+        <select id="colores">
+            <option value="" selected disabled hidden>Elige Color</option>
+            <option value="azul">Azul</option>
+            <option value="rojo">Rojo</option>
+            <option value="blanco">Blanco</option>
+        </select>
+
+        <div id="counter">
+            <i id="sub" class="fa-solid fa-minus"></i>
+            <span id="count">0</span>
+            <i id="add" class="fa-solid fa-plus"></i>
+        </div>
+        <hr>
+        <div id="resultado">
+            <button id="total">Total</button>
+            <span id="totalprecio">0</span>
+        </div>
+    </section>
+    
+   
+    
+    
+    <script src="./main.js"></script>
+</body>
+</html>

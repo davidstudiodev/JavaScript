@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto',sans-serif;
+}
+
+h1{
+    height:6vh;
+    padding:3vh 0;
+}
+h3{
+    height: 8vh;
+}
+
+#principal{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#precio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:30%;
+    height:8vh;
+}
+
+p{
+    height:12vh;
+    width:95%;
+    text-align: center;
+}
+
+img{
+    width:400px;
+    border-radius: 15px;
+    background: linear-gradient(orange
+    , pink);
+}
+
+#nombre_tenis {
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+#precio {
+    font-size: 30px;
+}
+
+#counter{
+    display:flex;
+    justify-content: space-evenly;
+    width:55vw;
+    height:7vh;
+}
+#resultado{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:60vw;
+}
+#resultado button{
+    border-radius: 20px;
+    border:none;
+    padding:5px 10px;
+}
